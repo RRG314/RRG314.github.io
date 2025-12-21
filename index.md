@@ -1,4 +1,3 @@
-# Steven Reid  
 Independent Researcher
 
 I am an independent researcher studying how simple deterministic algorithms, when applied recursively, can generate mathematical structure.
