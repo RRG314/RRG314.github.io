@@ -1,7 +1,7 @@
 # Steven Reid  
 Independent Researcher
 
-I am an independent researcher and hobbyist studying how simple deterministic algorithms, when applied recursively, can generate mathematical structure.
+I am an independent researcher studying how simple deterministic algorithms, when applied recursively, can generate mathematical structure.
 
 My work starts from the idea that recursion itself can act as a source of hierarchy, valuation, and measure, even when those concepts are not assumed at the outset. Rather than beginning with axioms, fields, or prime-based constructions, I start with algorithms and examine what structure emerges from iteration.
 
