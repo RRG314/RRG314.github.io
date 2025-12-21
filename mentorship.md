@@ -11,6 +11,6 @@ In particular, I would appreciate advice on:
 - How to improve clarity and rigor in presentation
 
 Contact:
-- Email: (add here)
+- Email: (Sreid1118@gmail.com)
 - ORCID: https://orcid.org/0009-0003-9132-3410
 - GitHub: https://github.com/RRG314
