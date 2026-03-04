@@ -48,4 +48,5 @@ The following checks were run locally in clean environments where possible.
 - Install: `pip install -e .` succeeded in a torch-enabled venv.
 - Test run: `pytest -q` passed (`17 passed`).
 - Runtime smoke test: `run_demo(...)` executed successfully on CPU.
+- CPU benchmark check: `256x256`, `200` steps, about `2397.82 steps/s` on this machine (`step(...)` loop timing).
 - Practical status: currently installable and usable for local experimentation.

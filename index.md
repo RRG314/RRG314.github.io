@@ -73,7 +73,7 @@ Links:
 - `topological-adam`: installable in a clean venv; test suite currently reports failures (`7 failed, 66 passed, 2 skipped`), so stabilization work is still needed.
 - `rge256`: currently not pip-installable as a package (`no pyproject/setup`) and test import fails due bundled `librge256ctr.so` mismatch on this machine.
 - `rdt256`: build + local results pipeline succeeded (`make all`, `python3 tests/run_results.py`, `make benchmark-honest`).
-- `rdt-kernel`: install + tests succeeded (`17 passed`) and `run_demo(...)` executed successfully.
+- `rdt-kernel`: install + tests succeeded (`17 passed`), `run_demo(...)` executed, and a CPU step-loop benchmark was captured.
 
 Detailed notes are maintained on the [Validation and Testing](validation.md) page.
 
