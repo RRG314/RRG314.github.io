@@ -89,8 +89,8 @@ Links:
 
 ## Validation Snapshot (2026-03-04)
 
-- `topological-adam`: installable; current test suite has remaining failures and is under active hardening.
-- `rge256`: packaging and native-wrapper portability need cleanup before reliable user installs.
+- `topological-adam`: clean install and test run passed (`73 passed, 2 skipped`) after hardening updates.
+- `rge256`: now pip-installable with native fallback; clean test run passed (`7 passed`).
 - `rdt256`: build, validation, and benchmark flows ran successfully from source.
 - `rdt-kernel`: install and tests passed, and CPU benchmark timing was captured.
 

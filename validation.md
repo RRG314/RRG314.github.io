@@ -27,14 +27,16 @@ The following checks were run locally in clean environments where possible.
 ### topological-adam
 
 - Install: `pip install -e .` succeeded.
-- Test run: `pytest -q` completed with `7 failed, 66 passed, 2 skipped`.
-- Practical status: basic optimizer step works, but several convergence and edge-case tests currently fail.
+- Test run: `pytest -q` completed with `73 passed, 2 skipped`.
+- Hardening updates included closure handling, deterministic field initialization, and edge-case test fixes for gradient indexing.
+- Practical status: installable and currently passing its repository test suite.
 
 ### rge256
 
-- Install: `pip install -e .` failed because no `pyproject.toml` or `setup.py` exists.
-- Test run: `PYTHONPATH=. pytest -q tests` fails during import on this machine due `librge256ctr.so` binary mismatch.
-- Practical status: core Python code is present, but packaging and native binary portability need cleanup.
+- Install: `pip install -e .` now succeeds via added package metadata.
+- Import hardening: native `librge256ctr.so` is now optional with a Python fallback when native loading fails.
+- Test run: `pytest -q tests` completed with `7 passed` (runtime warnings only).
+- Practical status: installable and usable in clean Python environments.
 
 ### rdt256
 
